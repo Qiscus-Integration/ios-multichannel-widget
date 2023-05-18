@@ -57,16 +57,7 @@
 		11449C8D249DE67200E32D9F /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11449C91249DE67200E32D9F /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		11449C93249DE67200E32D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11449C9D249DEA6400E32D9F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		11449C9F249DEA6400E32D9F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		11449CA0249DEA6400E32D9F /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
-		11449CA1249DEA6400E32D9F /* MultichannelWidget.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultichannelWidget.framework; path = Carthage/Build/iOS/MultichannelWidget.framework; sourceTree = "<group>"; };
 		11449CA7249DEAE500E32D9F /* ChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
-		11F76AB024C9D8F100C5C65A /* QiscusCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QiscusCore.framework; path = Carthage/Build/iOS/QiscusCore.framework; sourceTree = "<group>"; };
-		11F76AB124C9D8F100C5C65A /* QiscusRealtime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QiscusRealtime.framework; path = Carthage/Build/iOS/QiscusRealtime.framework; sourceTree = "<group>"; };
-		11F76ABE24C9E10200C5C65A /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
-		11F76ABF24C9E10200C5C65A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
-		11F76AC024C9E10200C5C65A /* CocoaMQTT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaMQTT.framework; path = Carthage/Build/iOS/CocoaMQTT.framework; sourceTree = "<group>"; };
 		4A7D3FC62A160AFC00B3EED6 /* QiscusCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = QiscusCore.xcframework; path = Carthage/Build/QiscusCore.xcframework; sourceTree = "<group>"; };
 		4A7D3FC72A160AFC00B3EED6 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
 		4A7D3FC82A160AFC00B3EED6 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
@@ -187,15 +178,6 @@
 				4A7D3FCA2A160AFC00B3EED6 /* RxTest.xcframework */,
 				4A7D3FCB2A160AFC00B3EED6 /* Starscream.xcframework */,
 				4A7D3FD32A160AFC00B3EED6 /* SwiftyJSON.xcframework */,
-				11F76ABF24C9E10200C5C65A /* CocoaAsyncSocket.framework */,
-				11F76AC024C9E10200C5C65A /* CocoaMQTT.framework */,
-				11F76ABE24C9E10200C5C65A /* Starscream.framework */,
-				11F76AB024C9D8F100C5C65A /* QiscusCore.framework */,
-				11F76AB124C9D8F100C5C65A /* QiscusRealtime.framework */,
-				11449C9D249DEA6400E32D9F /* Alamofire.framework */,
-				11449CA0249DEA6400E32D9F /* AlamofireImage.framework */,
-				11449CA1249DEA6400E32D9F /* MultichannelWidget.framework */,
-				11449C9F249DEA6400E32D9F /* SwiftyJSON.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
