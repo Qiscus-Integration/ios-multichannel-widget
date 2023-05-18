@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,15 +15,24 @@
 		11449C87249DE67100E32D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11449C85249DE67100E32D9F /* LaunchScreen.storyboard */; };
 		11449C92249DE67200E32D9F /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449C91249DE67200E32D9F /* ExampleTests.swift */; };
 		11449CA8249DEAE500E32D9F /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449CA7249DEAE500E32D9F /* ChatManager.swift */; };
-		11449CAB249DFD6800E32D9F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11449C9D249DEA6400E32D9F /* Alamofire.framework */; };
-		11449CAC249DFFC700E32D9F /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11449CA0249DEA6400E32D9F /* AlamofireImage.framework */; };
-		11449CAD249DFFC700E32D9F /* MultichannelWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11449CA1249DEA6400E32D9F /* MultichannelWidget.framework */; };
-		11449CAF249DFFC700E32D9F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11449C9F249DEA6400E32D9F /* SwiftyJSON.framework */; };
-		11F76AB224C9D8F200C5C65A /* QiscusCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F76AB024C9D8F100C5C65A /* QiscusCore.framework */; };
-		11F76AB324C9D8F200C5C65A /* QiscusRealtime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F76AB124C9D8F100C5C65A /* QiscusRealtime.framework */; };
-		11F76AC124C9E10200C5C65A /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F76ABE24C9E10200C5C65A /* Starscream.framework */; };
-		11F76AC224C9E10200C5C65A /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F76ABF24C9E10200C5C65A /* CocoaAsyncSocket.framework */; };
-		11F76AC324C9E10200C5C65A /* CocoaMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F76AC024C9E10200C5C65A /* CocoaMQTT.framework */; };
+		4A6750ED2A160E8600C0111A /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FCD2A160AFC00B3EED6 /* RxBlocking.xcframework */; };
+		4A6750EE2A160E8D00C0111A /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FCA2A160AFC00B3EED6 /* RxTest.xcframework */; };
+		4A7D3FD82A160AFD00B3EED6 /* QiscusCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FC62A160AFC00B3EED6 /* QiscusCore.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4A7D3FD92A160AFD00B3EED6 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FC72A160AFC00B3EED6 /* RxRelay.xcframework */; };
+		4A7D3FDA2A160AFD00B3EED6 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FC82A160AFC00B3EED6 /* RxSwift.xcframework */; };
+		4A7D3FDB2A160AFD00B3EED6 /* Moya.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FC92A160AFC00B3EED6 /* Moya.xcframework */; };
+		4A7D3FDD2A160AFD00B3EED6 /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FCB2A160AFC00B3EED6 /* Starscream.xcframework */; };
+		4A7D3FDE2A160AFD00B3EED6 /* RxMoya.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FCC2A160AFC00B3EED6 /* RxMoya.xcframework */; };
+		4A7D3FE02A160AFD00B3EED6 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FCE2A160AFC00B3EED6 /* Alamofire.xcframework */; };
+		4A7D3FE12A160AFD00B3EED6 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FCF2A160AFC00B3EED6 /* RxCocoa.xcframework */; };
+		4A7D3FE22A160AFD00B3EED6 /* QiscusRealtime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FD02A160AFC00B3EED6 /* QiscusRealtime.xcframework */; };
+		4A7D3FE32A160AFD00B3EED6 /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FD12A160AFC00B3EED6 /* ReactiveSwift.xcframework */; };
+		4A7D3FE42A160AFD00B3EED6 /* MqttCocoaAsyncSocket.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FD22A160AFC00B3EED6 /* MqttCocoaAsyncSocket.xcframework */; };
+		4A7D3FE52A160AFD00B3EED6 /* SwiftyJSON.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FD32A160AFC00B3EED6 /* SwiftyJSON.xcframework */; };
+		4A7D3FE62A160AFD00B3EED6 /* ReactiveMoya.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FD42A160AFC00B3EED6 /* ReactiveMoya.xcframework */; };
+		4A7D3FE72A160AFD00B3EED6 /* AlamofireImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FD52A160AFC00B3EED6 /* AlamofireImage.xcframework */; };
+		4A7D3FE82A160AFD00B3EED6 /* MultichannelWidget.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FD62A160AFD00B3EED6 /* MultichannelWidget.xcframework */; };
+		4A7D3FE92A160AFD00B3EED6 /* CocoaMQTT.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D3FD72A160AFD00B3EED6 /* CocoaMQTT.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +67,24 @@
 		11F76ABE24C9E10200C5C65A /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		11F76ABF24C9E10200C5C65A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		11F76AC024C9E10200C5C65A /* CocoaMQTT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaMQTT.framework; path = Carthage/Build/iOS/CocoaMQTT.framework; sourceTree = "<group>"; };
+		4A7D3FC62A160AFC00B3EED6 /* QiscusCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = QiscusCore.xcframework; path = Carthage/Build/QiscusCore.xcframework; sourceTree = "<group>"; };
+		4A7D3FC72A160AFC00B3EED6 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		4A7D3FC82A160AFC00B3EED6 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		4A7D3FC92A160AFC00B3EED6 /* Moya.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Moya.xcframework; path = Carthage/Build/Moya.xcframework; sourceTree = "<group>"; };
+		4A7D3FCA2A160AFC00B3EED6 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
+		4A7D3FCB2A160AFC00B3EED6 /* Starscream.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Starscream.xcframework; path = Carthage/Build/Starscream.xcframework; sourceTree = "<group>"; };
+		4A7D3FCC2A160AFC00B3EED6 /* RxMoya.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxMoya.xcframework; path = Carthage/Build/RxMoya.xcframework; sourceTree = "<group>"; };
+		4A7D3FCD2A160AFC00B3EED6 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		4A7D3FCE2A160AFC00B3EED6 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		4A7D3FCF2A160AFC00B3EED6 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		4A7D3FD02A160AFC00B3EED6 /* QiscusRealtime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = QiscusRealtime.xcframework; path = Carthage/Build/QiscusRealtime.xcframework; sourceTree = "<group>"; };
+		4A7D3FD12A160AFC00B3EED6 /* ReactiveSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveSwift.xcframework; path = Carthage/Build/ReactiveSwift.xcframework; sourceTree = "<group>"; };
+		4A7D3FD22A160AFC00B3EED6 /* MqttCocoaAsyncSocket.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MqttCocoaAsyncSocket.xcframework; path = Carthage/Build/MqttCocoaAsyncSocket.xcframework; sourceTree = "<group>"; };
+		4A7D3FD32A160AFC00B3EED6 /* SwiftyJSON.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftyJSON.xcframework; path = Carthage/Build/SwiftyJSON.xcframework; sourceTree = "<group>"; };
+		4A7D3FD42A160AFC00B3EED6 /* ReactiveMoya.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveMoya.xcframework; path = Carthage/Build/ReactiveMoya.xcframework; sourceTree = "<group>"; };
+		4A7D3FD52A160AFC00B3EED6 /* AlamofireImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AlamofireImage.xcframework; path = Carthage/Build/AlamofireImage.xcframework; sourceTree = "<group>"; };
+		4A7D3FD62A160AFD00B3EED6 /* MultichannelWidget.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MultichannelWidget.xcframework; path = Carthage/Build/MultichannelWidget.xcframework; sourceTree = "<group>"; };
+		4A7D3FD72A160AFD00B3EED6 /* CocoaMQTT.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaMQTT.xcframework; path = Carthage/Build/CocoaMQTT.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +92,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11449CAB249DFD6800E32D9F /* Alamofire.framework in Frameworks */,
-				11449CAC249DFFC700E32D9F /* AlamofireImage.framework in Frameworks */,
-				11449CAD249DFFC700E32D9F /* MultichannelWidget.framework in Frameworks */,
-				11F76AB224C9D8F200C5C65A /* QiscusCore.framework in Frameworks */,
-				11F76AB324C9D8F200C5C65A /* QiscusRealtime.framework in Frameworks */,
-				11449CAF249DFFC700E32D9F /* SwiftyJSON.framework in Frameworks */,
-				11F76AC124C9E10200C5C65A /* Starscream.framework in Frameworks */,
-				11F76AC224C9E10200C5C65A /* CocoaAsyncSocket.framework in Frameworks */,
-				11F76AC324C9E10200C5C65A /* CocoaMQTT.framework in Frameworks */,
+				4A7D3FD82A160AFD00B3EED6 /* QiscusCore.xcframework in Frameworks */,
+				4A7D3FD92A160AFD00B3EED6 /* RxRelay.xcframework in Frameworks */,
+				4A7D3FDA2A160AFD00B3EED6 /* RxSwift.xcframework in Frameworks */,
+				4A7D3FDB2A160AFD00B3EED6 /* Moya.xcframework in Frameworks */,
+				4A7D3FDD2A160AFD00B3EED6 /* Starscream.xcframework in Frameworks */,
+				4A7D3FDE2A160AFD00B3EED6 /* RxMoya.xcframework in Frameworks */,
+				4A7D3FE02A160AFD00B3EED6 /* Alamofire.xcframework in Frameworks */,
+				4A7D3FE12A160AFD00B3EED6 /* RxCocoa.xcframework in Frameworks */,
+				4A7D3FE22A160AFD00B3EED6 /* QiscusRealtime.xcframework in Frameworks */,
+				4A7D3FE32A160AFD00B3EED6 /* ReactiveSwift.xcframework in Frameworks */,
+				4A7D3FE42A160AFD00B3EED6 /* MqttCocoaAsyncSocket.xcframework in Frameworks */,
+				4A7D3FE52A160AFD00B3EED6 /* SwiftyJSON.xcframework in Frameworks */,
+				4A7D3FE62A160AFD00B3EED6 /* ReactiveMoya.xcframework in Frameworks */,
+				4A7D3FE72A160AFD00B3EED6 /* AlamofireImage.xcframework in Frameworks */,
+				4A7D3FE82A160AFD00B3EED6 /* MultichannelWidget.xcframework in Frameworks */,
+				4A7D3FE92A160AFD00B3EED6 /* CocoaMQTT.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6750ED2A160E8600C0111A /* RxBlocking.xcframework in Frameworks */,
+				4A6750EE2A160E8D00C0111A /* RxTest.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +169,24 @@
 		11449C9C249DEA6400E32D9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A7D3FCE2A160AFC00B3EED6 /* Alamofire.xcframework */,
+				4A7D3FD52A160AFC00B3EED6 /* AlamofireImage.xcframework */,
+				4A7D3FD72A160AFD00B3EED6 /* CocoaMQTT.xcframework */,
+				4A7D3FC92A160AFC00B3EED6 /* Moya.xcframework */,
+				4A7D3FD22A160AFC00B3EED6 /* MqttCocoaAsyncSocket.xcframework */,
+				4A7D3FD62A160AFD00B3EED6 /* MultichannelWidget.xcframework */,
+				4A7D3FC62A160AFC00B3EED6 /* QiscusCore.xcframework */,
+				4A7D3FD02A160AFC00B3EED6 /* QiscusRealtime.xcframework */,
+				4A7D3FD42A160AFC00B3EED6 /* ReactiveMoya.xcframework */,
+				4A7D3FD12A160AFC00B3EED6 /* ReactiveSwift.xcframework */,
+				4A7D3FCD2A160AFC00B3EED6 /* RxBlocking.xcframework */,
+				4A7D3FCF2A160AFC00B3EED6 /* RxCocoa.xcframework */,
+				4A7D3FCC2A160AFC00B3EED6 /* RxMoya.xcframework */,
+				4A7D3FC72A160AFC00B3EED6 /* RxRelay.xcframework */,
+				4A7D3FC82A160AFC00B3EED6 /* RxSwift.xcframework */,
+				4A7D3FCA2A160AFC00B3EED6 /* RxTest.xcframework */,
+				4A7D3FCB2A160AFC00B3EED6 /* Starscream.xcframework */,
+				4A7D3FD32A160AFC00B3EED6 /* SwiftyJSON.xcframework */,
 				11F76ABF24C9E10200C5C65A /* CocoaAsyncSocket.framework */,
 				11F76AC024C9E10200C5C65A /* CocoaMQTT.framework */,
 				11F76ABE24C9E10200C5C65A /* Starscream.framework */,
@@ -156,7 +210,6 @@
 				11449C73249DE66F00E32D9F /* Sources */,
 				11449C74249DE66F00E32D9F /* Frameworks */,
 				11449C75249DE66F00E32D9F /* Resources */,
-				11449CA9249DEED400E32D9F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -242,44 +295,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		11449CA9249DEED400E32D9F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/QiscusCore.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/MultichannelWidget.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/QiscusRealtime.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/CocoaMQTT.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireImage.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/QiscusCore.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MultichannelWidget.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/QiscusRealtime.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CocoaAsyncSocket.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CocoaMQTT.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Starscream.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11449C73249DE66F00E32D9F /* Sources */ = {
@@ -450,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -472,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
